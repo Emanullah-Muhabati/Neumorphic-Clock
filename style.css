@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d1d1d1;
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 520px;
+  width: 260px;
+  background: linear-gradient(#737373, #232323);
+  border-radius: 30px;
+  box-shadow:
+    10px 10px 20px #797979,
+    -10px -10px 20px #fff;
+  color: #fff;
+  padding: 5px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.iphone-iceland {
+  position: absolute;
+  top: 10px;
+  width: 100px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 20px;
+}
+.iphone-iceland i {
+  color: #f1f1f1;
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.date {
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  color: #f1f1f1;
+  margin-top: 40px;
+}
+
+.date span {
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  position: absolute;
+  top: -5px;
+}
+
+.notification {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  background: linear-gradient(to right, #a17ff5, #c638e2);
+}
+
+.wifi-charge .right {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+}
+.wifi-charge .right::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background-color: #d1d1d1;
+  margin-left: 8px;
+  position: absolute;
+  top: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.wifi-charge .left {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  display: flex;
+  font-size: 12px;
+}
+
+.digital-time {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 40px;
+  position: relative;
+  color: #f1f1f1;
+}
+.digital-time span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #737373;
+  position: absolute;
+}
+
+.clock {
+  margin-top: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: linear-gradient(#616161, #2c2c2c);
+  box-shadow:
+    -5px -10px 10px #616161,
+    5px 10px 10px #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.clock-hand {
+  position: absolute;
+  background: linear-gradient(to bottom, #a17ff5, #db5af5);
+  border-radius: 5px;
+  width: 70px;
+  height: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -50%) rotateZ(-90deg);
+  transform-origin: left center;
+}
+
+.center-point {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #c638e2;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 3px 1px #696969;
+}
+
+.unlock {
+  margin-top: 60px;
+  color: #616161;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.unlock::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background-color: #d1d1d1;
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.btns .right {
+  position: absolute;
+  bottom: 40px;
+  right: 15px;
+  font-size: 20px;
+  color: #d1d1d1;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #616161;
+}
+
+.btns .left {
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+  font-size: 20px;
+  color: #d1d1d1;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #616161;
+}
