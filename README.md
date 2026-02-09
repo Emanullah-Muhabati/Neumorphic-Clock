@@ -17,13 +17,9 @@ This project explores **neumorphism in UI design**, blending realism with minima
 
 ## 🛠️ Tech Stack
 - Front-end: HTML, CSS, JavaScript
-- Styling: Tailwind CSS (optional)
-- Design tools: Canva / Figma for mockups
 
 ## 📌 Future Improvements
-- Add customizable themes (light/dark mode)
 - Support for multiple time zones
-- Interactive animations for unlock gesture
 
 ## 👨‍💻 Creator
 **Emanullah Muhabati**  
